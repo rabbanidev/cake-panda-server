@@ -17,7 +17,7 @@ app.use("/uploads", express.static("uploads"));
 
 // All route declear
 app.get("/", (req, res) => {
-  res.status(200).send({ message: "Welcome to furnitre backend" });
+  res.status(200).send({ message: "Welcome to Cake Panda Server" });
 });
 app.use("/api", productRoutes);
 
